@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+    <html>
+    <head>
+        <title>About this awesome website (NOT)</title>
+    </head>
+    <body>
+        <p>The beautiful man below, named {{ devname }} is the {{ getsex }} behind this awesome website</p>
+        <img src="{% static "images/rango.jpg" %}" alt="rango" height = "384" /><br />
+        <a href="/rango/">Home page</a>
+    </body>
+</html>
